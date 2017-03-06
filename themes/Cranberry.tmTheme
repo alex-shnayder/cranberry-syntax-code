@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Cranberry</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#1E1C1A</string>
+				<key>foreground</key>
+				<string>#EAD8AE</string>
+				<key>caret</key>
+				<string>#FDF8E3</string>
+				<key>invisibles</key>
+				<string>#332E2B</string>
+				<key>guide</key>
+				<string>#332E2B</string>
+
+				<key>lineHighlight</key>
+				<string>#27221e</string>
+
+				<key>selection</key>
+				<string>#42352E</string>
+				<key>selectionHighlight</key>
+				<string>#332924</string>
+
+				<key>wordHighlight</key>
+				<string>#362B2600</string>
+				<key>wordHighlightStrong</key>
+				<string>#362B2600</string>
+
+				<key>hoverHighlight</key>
+				<string>#332924</string>
+
+				<key>rangeHighlight</key>
+				<string>#332924</string>
+				<key>findRangeHighlight</key>
+				<string>#332924</string>
+				<key>findMatchHighlight</key>
+				<string>#e75f7f</string>
+				<key>currentFindMatchHighlight</key>
+				<string>#AA2222</string>
+
+				<key>activeLinkForeground</key>
+				<string>#e75f7f</string>
+				<key>gotoDefinitionLinkForeground</key>
+				<string>#e75f7f</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Comment</string>
+			<key>scope</key>
+			<string>comment, punctuation.definition.comment</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#87796E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>String</string>
+			<key>scope</key>
+			<string>string, punctuation.definition.string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#5EC976</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Number</string>
+			<key>scope</key>
+			<string>constant.numeric</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#7DD9A8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Constant</string>
+			<key>scope</key>
+			<string>constant.language, constant.character, constant.other</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#7DD9A8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variable</string>
+			<key>scope</key>
+			<string>variable, support.variable, variable.parameter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F05F51</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keyword</string>
+			<key>scope</key>
+			<string>keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6bb8d7</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Operator</string>
+			<key>scope</key>
+			<string>keyword.operator, storage.type.function.arrow, meta.arrow</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b8d8e0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Storage</string>
+			<key>scope</key>
+			<string>storage</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6bb8d7</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Class name</string>
+			<key>scope</key>
+			<string>entity.name.class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EAD8AE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function name</string>
+			<key>scope</key>
+			<string>entity.name.function, meta.method.declaration</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EAD8AE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Object property</string>
+			<key>scope</key>
+			<string>meta.object-literal.key, support.type.property-name, punctuation.support.type.property-name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f1ab5c</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tag name</string>
+			<key>scope</key>
+			<string>entity.name.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F05F51</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tag attribute</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f1ab5c</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tag brackets</string>
+			<key>scope</key>
+			<string>punctuation.definition.tag.xml</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C3A070</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Doctype</string>
+			<key>scope</key>
+			<string>meta.tag.sgml.doctype, keyword.other.doctype, variable.language.documentroot.xml</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C25348</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Library function</string>
+			<key>scope</key>
+			<string>support.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ebd9af</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Library constant</string>
+			<key>scope</key>
+			<string>support.constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#7dd9a8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Library class type</string>
+			<key>scope</key>
+			<string>support.type, support.class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ebd9af</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Library variable</string>
+			<key>scope</key>
+			<string>support.other.variable</string>
+			<key>settings</key>
+			<dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Invalid</string>
+			<key>scope</key>
+			<string>invalid, invalid.deprecated</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CC2222</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Punctuation</string>
+			<key>scope</key>
+			<string>punctuation, meta.brace</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C1B190</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Imports and exports</string>
+			<key>scope</key>
+			<string>support.type.object.module</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e75f7f</string>
+			</dict>
+		</dict>
+	</array>
+
+	<key>uuid</key>
+	<string>58321147-21c7-4ab8-85fc-aad3112db21e</string>
+	<key>colorSpaceName</key>
+	<string>sRGB</string>
+	<key>semanticClass</key>
+	<string>theme.dark.cranberry</string>
+	<key>author</key>
+	<string>Alex Shnayder</string>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+build
+pg
+node_modules
+components
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+Thumbs.db
+*.tmp
+.idea
+.vscode
+._*
+*.log
+.npmrc
