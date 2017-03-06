@@ -1,32 +1,32 @@
 {
-    "name": "theme-cranberry",
-    "displayName": "Cranberry Theme",
-    "description": "Dark color theme for VS Code",
-    "version": "0.0.0",
-    "publisher": "alex-shnayder",
-    "engines": {
-        "vscode": "^1.10.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "homepage": "https://github.com/alex-shnayder/cranberry-syntax-vscode",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/alex-shnayder/cranberry-syntax-vscode.git"
-    },
-    "bugs": {
-        "url": "https://github.com/alex-shnayder/cranberry-syntax-vscode/issues",
-        "email": "alex@shnayder.pro"
-    },
-    "license": "MIT",
-    "contributes": {
-        "themes": [
-            {
-                "label": "Cranberry",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Cranberry.tmTheme"
-            }
-        ]
-    }
+  "name": "theme-cranberry",
+  "displayName": "Cranberry Theme",
+  "description": "Dark color theme for VS Code",
+  "version": "0.1.0",
+  "publisher": "alex-shnayder",
+  "engines": {
+    "vscode": "^1.10.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "homepage": "https://github.com/alex-shnayder/cranberry-syntax-vscode",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alex-shnayder/cranberry-syntax-vscode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alex-shnayder/cranberry-syntax-vscode/issues",
+    "email": "alex@shnayder.pro"
+  },
+  "license": "MIT",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cranberry",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Cranberry.tmTheme"
+      }
+    ]
+  }
 }
